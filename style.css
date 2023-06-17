@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,200&display=swap');
 body{
-    font-family: 'Roboto Mono', monospace;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: rgb(9, 128, 88);
 }
 .foto{
@@ -14,4 +14,39 @@ h1{
     text-align: center;
     justify-content: center;
     color: aliceblue;
+}
+h2{
+    text-decoration: none;
+    font-size: 39px;
+    justify-content: center;
+    text-align: center;
+    color: aliceblue;
+    box-sizing: border-box;
+    position: absolute;
+    width: 680px;
+    height: 50px;
+    background: #fffbfb;
+    border: 2px solid #ffffff;
+    border-radius: 23px;
+}
+h2:hover{
+    background: #dbd5d5;
+    color: aqua;
+    cursor: pointer;
+    border: 2px solid #00ff88;
+}
+h2.app{
+    text-decoration: none;
+    color: wheat;
+}
+.cgm{
+    display: inline-block;
+    padding-top: 115px;
+    margin-left: 240px;
+    font-size: 25px;
+    color: black;
+}
+.cgm:hover{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
 }
